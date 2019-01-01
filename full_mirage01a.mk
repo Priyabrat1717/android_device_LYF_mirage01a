@@ -18,15 +18,15 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from mobee01a device
-$(call inherit-product, device/LYF/mobee01a/device.mk)
+# Inherit from mirage01a device
+$(call inherit-product, device/LYF/mirage01a/device.mk)
 
 # Gapps
-$(call inherit-product, device/LYF/mobee01a/gapps.mk)
+$(call inherit-product, device/LYF/mirage01a/gapps.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := mobee01a
-PRODUCT_NAME := full_mobee01a
+PRODUCT_DEVICE := mirage01a
+PRODUCT_NAME := full_mirage01a
 PRODUCT_BRAND := LYF
-PRODUCT_MODEL := LYF Water 8
+PRODUCT_MODEL := LYF Water 1
 PRODUCT_MANUFACTURER := LYF

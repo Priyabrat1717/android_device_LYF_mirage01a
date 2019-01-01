@@ -16,7 +16,7 @@
 #
 
 
-DEVICE_PATH := device/LYF/mobee01a
+DEVICE_PATH := device/LYF/mirage01a
 
 # Platform
 TARGET_BOARD_PLATFORM := msm8916
@@ -144,8 +144,8 @@ BACKLIGHT_PATH := /sys/class/leds/lcd-backlight/brightness
 HWUI_COMPILE_FOR_PERF := true
 
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_mobee01a
-TARGET_RECOVERY_DEVICE_MODULES := libinit_mobee01a
+TARGET_INIT_VENDOR_LIB := libinit_mirage01a
+TARGET_RECOVERY_DEVICE_MODULES := libinit_mirage01a
 
 # Kernel
 BOARD_KERNEL_BASE := 0x80000000
@@ -158,7 +158,7 @@ BOARD_DTBTOOL_ARGS := -2
 BOARD_KERNEL_IMAGE_NAME := Image.gz
 BOARD_KERNEL_SEPARATED_DT := true
 LZMA_RAMDISK_TARGETS := recovery
-TARGET_KERNEL_SOURCE := kernel/LYF/mobee01a
+TARGET_KERNEL_SOURCE := kernel/LYF/mirage01a
 TARGET_KERNEL_CONFIG := destructive_defconfig
 
 TARGET_QCOM_MEDIA_VARIANT := caf-msm8916
@@ -191,7 +191,7 @@ TARGET_RIL_VARIANT := caf
 BOARD_HARDWARE_CLASS += $(DEVICE_PATH)/lineagehw
 
 # Power
-TARGET_POWER_SET_FEATURE_LIB := libpower_set_feature_mobee01a
+TARGET_POWER_SET_FEATURE_LIB := libpower_set_feature_mirage01a
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
@@ -247,4 +247,4 @@ TARGET_LD_SHIM_LIBS := \
     /system/vendor/lib/libizat_core.so|libshims_get_process_name.so
 
 # Inherit from proprietary files
--include vendor/LYF/mobee01a/BoardConfigVendor.mk
+-include vendor/LYF/mirage01a/BoardConfigVendor.mk

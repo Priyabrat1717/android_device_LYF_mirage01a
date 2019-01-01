@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "android.hardware.sensors@1.0-service.mobee01a"
+#define LOG_TAG "android.hardware.sensors@1.0-service.mirage01a"
 
 #include <android/hardware/sensors/1.0/ISensors.h>
 #include <hidl/LegacySupport.h>

@@ -336,7 +336,7 @@ PRODUCT_COPY_FILES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.mobee01a
+    android.hardware.light@2.0-service.mirage01a
 
 # Media
 PRODUCT_COPY_FILES += \
@@ -365,7 +365,7 @@ PRODUCT_COPY_FILES += \
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl \
-    android.hardware.sensors@1.0-service.mobee01a \
+    android.hardware.sensors@1.0-service.mirage01a \
     sensors.msm8916
 
 # Thermal
@@ -398,10 +398,10 @@ PRODUCT_PACKAGES += \
     vndk-sp
 
 # Animation
-PRODUCT_COPY_FILES += device/LYF/mobee01a/bootanimation.zip:system/media/bootanimation.zip
+PRODUCT_COPY_FILES += device/LYF/mirage01a/bootanimation.zip:system/media/bootanimation.zip
 
 # APN(s)
-PRODUCT_COPY_FILES += device/LYF/mobee01a/apns-conf.xml:system/etc/apns-conf.xml
+PRODUCT_COPY_FILES += device/LYF/mirage01a/apns-conf.xml:system/etc/apns-conf.xml
 
 # Call the proprietary setup
-$(call inherit-product, vendor/LYF/mobee01a/mobee01a-vendor.mk)
+$(call inherit-product, vendor/LYF/mirage01a/mirage01a-vendor.mk)

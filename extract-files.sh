@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=mobee01a
+DEVICE=mirage01a
 VENDOR=LYF
 
 # Load extract_utils and do some sanity checks
