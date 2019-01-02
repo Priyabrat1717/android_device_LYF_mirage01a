@@ -400,6 +400,10 @@ PRODUCT_PACKAGES += \
 # Animation
 PRODUCT_COPY_FILES += device/LYF/mirage01a/bootanimation.zip:system/media/bootanimation.zip
 
+PRODUCT_COPY_FILES += \
+        device/LYF/mirage01a/boot/zImage:kernel \
+        device/LYF/mirage01a/boot/dt.img:dt.img
+
 # APN(s)
 PRODUCT_COPY_FILES += device/LYF/mirage01a/apns-conf.xml:system/etc/apns-conf.xml
 

@@ -33,6 +33,6 @@ ifeq ($(TARGET_USES_INTERACTION_BOOST),true)
 endif
 
 LOCAL_MODULE := power.$(TARGET_BOARD_PLATFORM)
-LOCAL_MODULE := libpower_set_feature_mobee01a
+LOCAL_MODULE := libpower_set_feature_mirage01a
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_STATIC_LIBRARY)

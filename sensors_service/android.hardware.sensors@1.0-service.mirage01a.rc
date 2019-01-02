@@ -1,4 +1,4 @@
-service sensors-hal-1-0 /vendor/bin/hw/android.hardware.sensors@1.0-service.mobee01a
+service sensors-hal-1-0 /vendor/bin/hw/android.hardware.sensors@1.0-service.mirage01a
     class hal
     user system
     group system input wakelock
